@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/guideMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+
+    <org.treant.scrollgrid2_mutiscreens.widgets.ScrollGuideLayout
+        android:id="@+id/scrollGuide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+  
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+<!--  
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <CheckBox
+                android:id="@+id/checkBoxGuide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="120dip"
+                android:text="下次不再提示" />
+
+            <Button
+                android:id="@+id/startButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="50dip"
+                android:background="@drawable/button_bg"
+                android:text="Start"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </org.treant.scrollgrid2_mutiscreens.widgets.ScrollGuideLayout>
+
+    <LinearLayout
+        android:id="@+id/pointsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dip"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <ImageView style="@style/pointStyle" />
+
+        <ImageView style="@style/pointStyle" />
+
+        <ImageView style="@style/pointStyle" />
+
+        <ImageView style="@style/pointStyle" />
+
+        <ImageView style="@style/pointStyle" />
+        
+        <ImageView style="@style/pointStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/animOpen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/leftAnim"
+            android:layout_width="wrap_content"  android:layout_weight="1"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/whatsnew_left" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/whatsnew_left_m" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rightAnim"
+            android:layout_width="match_parent"  android:layout_weight="1"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/whatsnew_right_m" />
+			<ImageView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"	
+				android:src="@drawable/whatsnew_right"		    
+			    />
+           
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

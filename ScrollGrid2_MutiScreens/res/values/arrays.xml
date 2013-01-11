@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="itemsText">
+        <item>新闻头条</item>
+        <item>军事瞭望</item>
+        <item>科学探索</item>
+        <item>中国联通</item>
+        <item>沃商店</item>
+        <item>沃音乐</item>
+        <item>沃视频</item>
+        <item>营业厅</item>
+        <item>新浪微博</item>
+        <item>娱乐八卦</item>
+    </string-array>
+
+    <array name="itemIcon">
+        <item>@drawable/ic_menu_add</item>
+        <item>@drawable/ic_menu_attachment</item>
+        <item>@drawable/ic_menu_cc</item>
+        <item>@drawable/ic_menu_inbox</item>
+        <item>@drawable/ic_menu_edit</item>
+        <item>@drawable/ic_menu_mark</item>
+        <item>@drawable/ic_menu_move</item>
+        <item>@drawable/ic_menu_refresh</item>
+        <item>@drawable/ic_menu_search</item>
+        <item>@drawable/ic_menu_folders</item>
+    </array>
+    
+    <array name="itemsURI">
+        <item>http://news.baidu.com</item>
+        <item>http://military.china.com/zh_cn</item>
+        <item>http://tech.qq.com/science.htm</item>
+        <item>http://www.chinaunicom.com.cn/</item>
+        <item>http://mstore.wo.com.cn</item>
+        <item>http://imusic.wo.com.cn</item>
+        <item>http://itv.wo.com.cn</item>
+        <item>http://mob.10010.com</item>
+        <item>http://weibo.com</item>
+        <item>http://ent.sina.com.cn</item>
+    </array>
+
+</resources>

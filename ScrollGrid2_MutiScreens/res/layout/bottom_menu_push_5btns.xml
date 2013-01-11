@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:stretchColumns="0,1,2,3,4" >
+
+    <TableRow>
+
+        <ImageButton
+            android:id="@+id/bottom_menu_btn1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:src="@drawable/selector_return" />
+
+        <ImageButton
+            android:id="@+id/bottom_menu_btn4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:src="@drawable/selector_transmit" />
+
+        <ImageButton
+            android:id="@+id/bottom_menu_btn3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:src="@drawable/selector_collect" />
+
+        <ImageButton
+            android:id="@+id/bottom_menu_btn5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:src="@drawable/selector_comment" />
+
+        <ImageButton
+            android:id="@+id/bottom_menu_btn2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:src="@drawable/selector_link" />
+    </TableRow>
+
+</TableLayout>
